@@ -20,7 +20,7 @@
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: ${{ secrets.RESOURCEGRPNAME }}
-          template: ./azuredeploy.json
+          template: ./InfrastructureAsCode/main.bicep
           parameters: storageAccountType=Standard_LRS
 
         # output containerName variable from template

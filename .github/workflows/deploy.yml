@@ -1,4 +1,4 @@
-
+#edit
   name: Azure ARM
   on: workflow_call
   jobs:

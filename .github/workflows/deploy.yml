@@ -1,7 +1,7 @@
 #edit
   name: Azure ARM
    on: workflow_call
-  jobs:
+   jobs:
     build-and-deploy:
       runs-on: ubuntu-latest
       steps:

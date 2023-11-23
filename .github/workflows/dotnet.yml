@@ -2,7 +2,13 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
 name: .NET
-
+env:
+  registryname: 'ljnjit4kzcs7wwthreg.azurecr.io'
+  repositoryname: 'wth/dotnetcoreapp'
+  dockerFolderPath: 'Application/src/RazorPagesTestSample'
+  Tag: github_run_id
+  
+  
 on:
   push:
     paths:

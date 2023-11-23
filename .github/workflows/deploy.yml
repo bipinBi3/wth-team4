@@ -19,7 +19,7 @@
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-          resourceGroupName: ${{ variables.RESOURCEGRPNAME }}
+          resourceGroupName: ${{ secrets.RESOURCEGRPNAME }}
           template: ./azuredeploy.json
           parameters: storageAccountType=Standard_LRS
 

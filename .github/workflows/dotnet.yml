@@ -6,8 +6,7 @@ env:
   registryname: 'ljnjit4kzcs7wwthreg.azurecr.io'
   repositoryname: 'wth/dotnetcoreapp'
   dockerFolderPath: 'Application/src/RazorPagesTestSample'
-  Tag: github_run_id
-  
+  Tag: ${{ github.run_id }}
   
 on:
   push:
